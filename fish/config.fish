@@ -7,7 +7,7 @@ colorscript -r
 alias ls="lsd"
 alias ll="lsd -al"
 
-set -U fish_greeting
+set -g fish_greeting
 
 zoxide init fish | source
 
